@@ -1,0 +1,176 @@
+{
+  "title": "morning-affirmations",
+  "flow": {
+    "nodes": [
+      {
+        "id": "h2aXLPkJ2",
+        "type": "NoteNode",
+        "position": {
+          "x": 1034.577795123539,
+          "y": 734.2851487020906
+        },
+        "data": {
+          "uname": "prompt",
+          "text": "Аффирмации позволяют провести день в позитивном настроении,\nэффективно справляясь с рабочими и бизнес задачами.\nСоздай мне 15 положительных утверждений про [[who]] в возрасте [[age]].",
+          "editing": false,
+          "renaming": false,
+          "color": "#000000",
+          "backgroundColor": "#ffffff",
+          "stash": "",
+          "kind": "markdown",
+          "attachments": []
+        },
+        "width": 510,
+        "measured": {
+          "width": 510,
+          "height": 270
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": true
+      },
+      {
+        "id": "k8mUYStam",
+        "type": "NoteNode",
+        "position": {
+          "x": 745.3568390442704,
+          "y": 463.052552271787
+        },
+        "data": {
+          "uname": "who",
+          "text": "женщин\n",
+          "editing": false,
+          "renaming": false,
+          "color": "#000000",
+          "backgroundColor": "#ffffff",
+          "stash": ""
+        },
+        "width": 600,
+        "measured": {
+          "width": 600,
+          "height": 94
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "jOysxF0U1",
+        "type": "NoteNode",
+        "position": {
+          "x": 1419.6395490219286,
+          "y": 464.0788577664258
+        },
+        "data": {
+          "uname": "age",
+          "text": "От 18 до 100 лет",
+          "editing": false,
+          "renaming": false,
+          "color": "#000000",
+          "backgroundColor": "#ffffff",
+          "stash": ""
+        },
+        "width": 600,
+        "measured": {
+          "width": 600,
+          "height": 94
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "JvLhA79sD",
+        "position": {
+          "x": 994.7490742414864,
+          "y": 1092.5614017781038
+        },
+        "data": {
+          "uname": "Note_JvLhA79sD",
+          "text": "1. Я сильная, умная и достойная успеха в любом возрасте.  \n2. Моя мудрость и интуиция помогают мне принимать верные решения.  \n3. Я уверенно проявляю себя и смело говорю о своих идеях.  \n4. Мой опыт — это мой ресурс; я использую его для роста и вдохновения.  \n5. Я умею расставлять приоритеты и направляю энергию на главное.  \n6. Я учусь всю жизнь, легко осваивая новые навыки и возможности.  \n7. Я создаю успех и открыта к изобилию во всех сферах.  \n8. Моя ценность безусловна, и я достойна уважения и справедливого вознаграждения.  \n9. Я заботливо отношусь к себе, сохраняя баланс между работой и жизнью.  \n10. Я принимаю смелые решения и верю в свои способности.  \n11. Я свободно говорю «да» важному и «нет» лишнему, уважая свои границы.  \n12. Я излучаю спокойствие и уверенность, которые ведут к результатам.  \n13. Я творчески решаю задачи и нахожу простые пути в сложных ситуациях.  \n14. Я вдохновляю и поддерживаю других женщин, и получаю поддержку в ответ.  \n15. В любом возрасте я раскрываю свой потенциал и сияю каждый день.",
+          "editing": false,
+          "renaming": false,
+          "color": "#000000",
+          "backgroundColor": "#ffffff",
+          "kind": "markdown"
+        },
+        "type": "NoteNode",
+        "measured": {
+          "width": 600,
+          "height": 422
+        },
+        "width": 600,
+        "selected": false
+      }
+    ],
+    "edges": [
+      {
+        "source": "k8mUYStam",
+        "sourceHandle": "a",
+        "target": "h2aXLPkJ2",
+        "targetHandle": "a",
+        "id": "k8mUYStam->h2aXLPkJ2",
+        "type": "RequestEdge",
+        "data": {
+          "condition": "",
+          "stroke": "#999999",
+          "satisfied": true,
+          "safe": true,
+          "cursor": true
+        },
+        "markerEnd": {
+          "type": "arrowclosed",
+          "width": 20,
+          "height": 20,
+          "color": "#999999"
+        },
+        "animated": true
+      },
+      {
+        "source": "jOysxF0U1",
+        "sourceHandle": "a",
+        "target": "h2aXLPkJ2",
+        "targetHandle": "a",
+        "id": "jOysxF0U1->h2aXLPkJ2",
+        "type": "RequestEdge",
+        "data": {
+          "condition": "",
+          "stroke": "#999999",
+          "satisfied": true,
+          "safe": true,
+          "cursor": true
+        },
+        "markerEnd": {
+          "type": "arrowclosed",
+          "width": 20,
+          "height": 20,
+          "color": "#999999"
+        },
+        "animated": true
+      },
+      {
+        "id": "h2aXLPkJ2->JvLhA79sD",
+        "source": "h2aXLPkJ2",
+        "target": "JvLhA79sD",
+        "type": "RequestEdge",
+        "data": {
+          "recipient": "gpt-5@artemarakcheev.x.h9y.localhost",
+          "condition": "",
+          "stroke": "#999999",
+          "satisfied": true,
+          "safe": true,
+          "cursor": true
+        },
+        "markerEnd": {
+          "type": "arrowclosed",
+          "width": 20,
+          "height": 20,
+          "color": "#999999"
+        }
+      }
+    ],
+    "viewport": {
+      "x": -280.784843121691,
+      "y": -277.3310439244659,
+      "zoom": 0.7582827563027065
+    }
+  }
+}

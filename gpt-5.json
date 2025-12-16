@@ -1,0 +1,36 @@
+{
+  "_id": "68bf240fe1ba5ab804d3463c",
+  "userId": "679b3c9a6e26f022ca69515b",
+  "archetype": "chat-v1.0",
+  "deployed": true,
+  "options": {
+    "name": "gpt-5",
+    "description": "openai/gpt-5",
+    "joinRooms": [
+      "chat"
+    ],
+    "chat": {
+      "systemMessage": "",
+      "model": {
+        "provider": "openai",
+        "name": "gpt-5",
+        "apiKey": {
+          "valueFromVault": "OPENAI_API_KEY"
+        }
+      },
+      "session": ""
+    },
+    "maptrix": {
+      "output": []
+    },
+    "mcp": {
+      "args": []
+    },
+    "rag": {
+      "loaders": []
+    }
+  },
+  "updatedAt": "2025-12-14T16:23:08.253Z",
+  "createdAt": "2025-09-08T18:44:31.033Z",
+  "__v": 0
+}
