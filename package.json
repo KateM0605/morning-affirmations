@@ -1,0 +1,27 @@
+{
+  "name": "morning-affirmations",
+  "version": "1.0.0",
+  "description": "Generator of daily morning affirmations based on HyperAgency",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/KateM0605/morning-affirmations.git"
+  },
+  "keywords": [
+    "morning",
+    "affirmations",
+    "generator",
+    "ai",
+    "hyperagency",
+    "h9y"
+  ],
+  "author": "Ekaterina Melnikova <art-mosaic2011@yandex.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KateM0605/morning-affirmations/issues"
+  },
+  "homepage": "https://github.com/KateM0605/morning-affirmations#readme"
+}
